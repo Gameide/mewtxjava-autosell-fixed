@@ -134,7 +134,7 @@ d88' d88'  88b`?888P' `?888P'888P'    `?8b      d8P' `?8b       `88b`?88P'`88b`?
                 data = json.load(f)
             self.mewt_collection = {item["id"]: item for item in data}
             self.mewt_collection_reversed = {item["collectibleItemId"]: item for item in data}
-            self.logs.append("Successfully fetched mewt collectable database from local file")
+            self.logs.append("Successfully fetched collectable items from local file")
         except Exception as e:
             self.logs.append(f"Error loading local file: {e}")
             time.sleep(5)
