@@ -1,0 +1,12 @@
+{
+    "COOKIE": "",
+    "SELL_METHOD": "UNDERCUT",
+    "CUSTOM_VALUES": {},
+    "WHITELIST":[],
+    "BLACKLIST_ITEMID": [],
+    "CREATORS_BLACKLIST": [],
+    "WEBHOOK": {
+        "ENABLED": true,
+        "URL": ""
+    }
+}
