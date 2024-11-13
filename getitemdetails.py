@@ -47,8 +47,6 @@ class Client:
             time.sleep(1)
             raise SystemExit
 
-
-
     def set_token(self):
         try:
             conn = self.session.post("https://friends.roblox.com/v1/users/1/request-friendship")
@@ -59,9 +57,6 @@ class Client:
             time.sleep(5)
             return self.set_token()
         
-
-    
-
 
     def fetch_inv(self, assettype, cursor="", data=[]):
         try:
@@ -188,8 +183,6 @@ class Client:
         except Exception as error:
             print(f"Error saving results: {error}")
         
-
-
     def main(self):
         for assettype in collectable_types:
             inventory_data = self.fetch_inv(assettype)
