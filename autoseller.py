@@ -34,7 +34,7 @@ class Webhook:
 
 class Client:
     def __init__(self):
-        self.version = "1.0.1"
+        self.version = "1.0.2"
         self.title = (f"""
                                                                 d8,                              
                                        d8P                     `8P                               
@@ -305,7 +305,6 @@ d88' d88'  88b`?888P' `?888P'888P'    `?8b      d8P' `?8b       `88b`?88P'`88b`?
 
         return data
     
-
 
     def sell_item(self, price, collectibleItemId, collectibleInstanceId, collectibleProductId):
         try:
