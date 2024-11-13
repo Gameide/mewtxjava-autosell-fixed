@@ -8,6 +8,8 @@
 - [Java](https://discord.gg/javaw) // Unsupported
 - [Gameide](https://discord.gg/vAENGUKjVe) // Supported
 
+- [Original Repository](https://github.com/workframes/mewtxjava-autosell)
+
 ## Requirements
 - [Python](https://www.python.org/downloads/)
 - [requests](https://pypi.org/project/requests/)
