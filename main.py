@@ -53,7 +53,6 @@ d88' d88'  88b`?888P' `?888P'888P'    `?8b      d8P' `?8b       `88b`?88P'`88b`?
         self.ready = False    
         self.sell_method = settings["SELL_METHOD"]
         self.custom_values = settings["CUSTOM_VALUES"]
-        self.mewtvalue_multiplier = settings["MEWTVALUE_MULTIPLIER"]
         self.whitelist = settings["WHITELIST"]
         self.blacklist = settings["BLACKLIST_ITEMID"]
         self.creatorsblacklist = settings["CREATORS_BLACKLIST"]
