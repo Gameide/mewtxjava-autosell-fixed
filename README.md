@@ -7,7 +7,8 @@
 - [Mewt](https://discord.gg/mewt) // Unsupported
 - [Java](https://discord.gg/javaw) // Unsupported
 - [Gameide](https://discord.gg/vAENGUKjVe) // Supported
-
+- [ChatGPT](https://chatgpt.com) // 24/7 Support
+  
 - [Original Repository](https://github.com/workframes/mewtxjava-autosell)
 
 ## Requirements
@@ -58,7 +59,6 @@ If you are running this on `Mac OS` run it using `main.py`, if you are running i
 ## Example Settings
 ```json
 {
-    "SELL_METHOD": "CUSTOM",
     "SELL_METHOD": "UNDERCUT",
     "CUSTOM_VALUES": {
         "13599801260": 60
